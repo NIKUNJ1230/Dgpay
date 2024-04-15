@@ -1,0 +1,52 @@
+/* Adjust the size of the date picker icon */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    /* Adjust the size of the icon as per your requirement */
+    width: 20px;
+    height: 20px;
+    font-weight: bold;
+  }
+   /* Transction report  */
+   .text-des{
+    font-size: 18px;
+    
+   }
+   .text-title{
+    font-size: 20px;
+    font-weight: bold;
+   }
+   .pagination-btn {
+    border-radius: 50%;
+    padding: 0; /* Remove padding to control the size with width and height */
+    background-color: #ddd; /* Button background color */
+    border: none;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    margin: 0 px; /* Add margin between buttons */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    margin-top: 10px;
+  }
+  
+  .pagination-btn:disabled {
+    opacity: 0.5; /* Reduce opacity for disabled button */
+    cursor: not-allowed; /* Change cursor for disabled button */
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) { /* Adjust as needed */
+    .pagination-btn {
+      width: 40px; /* Decrease button size for smaller screens */
+      height: 40px;
+    }
+  }
+  @media (max-width: 768px) {
+    .pagination-btn .icon {
+      font-size: 20px; /* Adjust the font-size for smaller screens */
+    }
+  }
+  .selected-card {
+    background-color: blue; /* Set your desired background color */
+  }
+  

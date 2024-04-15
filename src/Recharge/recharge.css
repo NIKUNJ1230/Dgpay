@@ -1,0 +1,17 @@
+.form-label {
+    font-size: 18px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #2a2d84;
+    color: white;
+   
+    
+}
+.text-danger{
+    font-size: 18px;
+}

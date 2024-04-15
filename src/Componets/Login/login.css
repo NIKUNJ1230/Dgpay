@@ -1,0 +1,100 @@
+/* login.css */
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .logo {
+    margin-top: 80px;
+  }
+  
+  .welcome-text {
+    color: rgba(89, 92, 189, 1);
+    margin-top: 60px;
+    font-size: 36px;
+    justify-content: center; /* Center horizontally */
+  }
+  
+  .login-form {
+    margin-top: 30px;
+    width: 100%;
+    margin-left: 40%;
+  }
+  
+  .form-label {
+    font-size: 26px;
+    color: rgba(0, 0, 0, 1);
+  }
+  
+  .input-group {
+    width: 410px;
+    background-color: rgba(234, 234, 234, 1);
+    margin-bottom: 20px;
+  }
+  
+  .input-group-prepend {
+    display: flex;
+  }
+  
+  .input-icon {
+    height: 100%;
+    padding: 5px;
+  }
+  
+  .form-control {
+    width: calc(100% - 24px);
+    /* background-color: rgba(234, 234, 234, 1); */
+    /* border-top-left-radius: 0;
+    border-bottom-left-radius: 0; */
+  }
+  
+  .login-button {
+    margin-top: 20px;
+    width: 410px;
+    background-color: rgba(89, 92, 189, 1);
+  }
+  
+  .forgot-password {
+    text-align: left;
+    font-size: 18px;
+    color: #6163c8;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .hr-line {
+    margin-top: 10px;
+  }
+  
+  .connect-with-us {
+    margin-top: 10px;
+    padding: 20px;
+  }
+  
+  .social-media-icons {
+    margin: 20px;
+    padding: 20px;
+  
+    text-align: center; /* Center the content horizontally */
+  }
+  
+  .social-icon {
+    margin-right: 10px;
+  }
+  
+  
+  .login-image {
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+    display: block;
+  }
+  .divider {
+    justify-content: center; /* Center horizontally */
+  }
+  
+  .divider p {
+    margin: 0; /* Remove default margin */
+  }
+  

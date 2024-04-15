@@ -1,0 +1,141 @@
+.card {
+    background-color: rgba(0, 0, 0, 0.21);
+  }
+  
+  .card-text-secondary {
+    color: rgba(82, 82, 82, 1);
+  }
+  
+  .card-body {
+    margin: 10px;
+  }
+  
+  .text-left {
+    text-align: left;
+  }
+  
+  .input-field {
+    border-radius: 10px;
+    width: 100px;
+    padding: 10px;
+    box-shadow: white;
+    border-color: white;
+   color:black;
+
+  }
+  
+  .select-amount-card {
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+  }
+  
+ 
+  
+  .card:last-child {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  .selected-card {
+    background-color: #2a2d84;
+    color: white;
+  }
+  .select-amount-card {
+    text-align: center; /* Center align the content */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white; /* Default background color */
+    color: black; /* Default text color */
+    border-radius: 10px; /* Add border radius */
+    cursor: pointer; /* Add cursor pointer for interaction */
+    padding: 10px; /* Add padding */
+  }
+  
+  .select-amount-card span {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .select-amount-card.selected-card {
+    background-color: #2a2d84; /* Background color when selected */
+    color: white; /* Text color when selected */
+  }
+  .text-left-amount{
+    color: white;
+    text-align: start;
+    font-size: 20px;
+    font: Inter;
+  }
+ 
+  .dotted-line {
+    border-top: 2px dotted #ccc; /* Adjust thickness and color as needed */
+    width: 100%; /* Adjust width as needed */
+    margin: 10px 0; /* Adjust margin as needed */
+  }
+ /* Styles for mobile view */
+ /* Styles for mobile view */
+@media (max-width: 576px) {
+  .input-field {
+    width: 100%; /* Set width to 100% for mobile view */
+    max-width: none; /* Remove maximum width for mobile view */
+  }
+}
+
+
+@media (max-width: 576px) {
+    .modal-body {
+      padding: 10px;
+    }
+    
+    .otp-title {
+      font-size: 20px;
+    }
+    
+    .otp-message {
+      font-size: 20px;
+    }
+    
+    .otp-container {
+      margin: 10px;
+    }
+    
+    .otp-input {
+      width: 40px;
+      height: 40px;
+      font-size: 16px;
+      margin: 5px;
+    }
+    
+    .verify-btn {
+      font-size: 20px;
+      width: 150px;
+      margin-top: 40px;
+    }
+    
+    .resend-text {
+      font-size: 18px;
+      margin-right: 5px;
+    }
+    
+    .resend-link {
+      font-size: 18px;
+      color: 'rgba(89, 92, 189, 1)';
+    }
+  }
+  
+  
+  
+  
+  /* Other styles */
+
+  .error-message {
+    color: red;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 15px;
+  }
+ 

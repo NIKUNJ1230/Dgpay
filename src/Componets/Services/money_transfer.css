@@ -1,0 +1,309 @@
+.card-list {
+  margin-top: 10%;
+  background-color: #F3F3FB !important;
+  font-size: 34px;
+
+}
+
+.money-transfer {
+  color: black;
+}
+
+.flex {
+  display: flex !important;
+}
+
+.add-beneficiary {
+  min-width: 180px;
+  background-color: aliceblue !important;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.add-btn {
+  color: aliceblue;
+  background-color: #51CA6B;
+  border-radius: 10px 10px 10px 10px;
+  height: '10%';
+  /* -webkit-border-radius: 5px 0px 0px 5px;
+  -moz-border-radius: 5px 0px 0px 5px;
+  -ms-border-radius: 5px 0px 0px 5px;
+  -o-border-radius: 5px 0px 0px 5px; */
+}
+
+.table-head {
+  border: 4px solid #E3E3F6;
+  border-radius: 10px solid #E3E3F6;
+}
+
+.table-list tr th {
+  background-color: #F3F3FB !important;
+  border-radius: 10px !important;
+}
+
+.table-list tr td {
+  background-color: #F3F3FB;
+  border: none;
+}
+
+.transfer-type {
+  min-width: 183px;
+}
+
+
+@media (min-width: 426px) and (max-width: 1860px) {
+  .list-cnt {
+    margin-left: 100px;
+  }
+
+  .center {
+    margin: auto;
+    width: 20%;
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+
+  .blank {
+    display: none;
+  }
+
+  .center {
+    margin: 5% 25%;
+    width: 1%;
+    padding-left: 0px !important;
+    padding: 10px;
+    position: sticky;
+  }
+
+  .money-transfer-content {
+    font-size: 24px;
+  }
+
+  .services-content {
+    font-size: 24px;
+  }
+
+  .input-field-mobile {
+    width: 80%;
+  }
+}
+
+.services {
+  margin-top: 10px;
+  color: rgba(82, 82, 82, 1);
+}
+
+.input-field {
+  margin: 10px;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.input-field {
+  width: 150px;
+}
+
+.scrollable-row-container {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+/* Model CSS */
+.custom-input {
+  height: 40px;
+  
+  text-align: left;
+  color: black;
+  font-size: 18px;
+  background-color: white;
+}
+
+.custom-input-mobile {
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 10px;
+  
+}
+
+.label {
+  font-size: 20px;
+  text-align: left;
+  padding: 10px;
+}
+
+/* Beneficial  */
+
+.card {
+  /* margin-top: 5%; */
+  background-color:#d6d6e6;
+  font-size: 34px;
+
+}
+
+.services {
+  margin-top: 10px;
+  color: rgba(82, 82, 82, 1);
+}
+
+.money-transfer {
+  color: black;
+}
+
+.input-field-mobile {
+  margin: 10px;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.text-left {
+  text-align: left;
+  font-size: 20px;
+  color: #6163C8;
+  margin-top: 20px;
+  margin: 10px;
+}
+
+.input-field {
+  margin: 10px;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.submit-button {
+  background-color: #686BD3;
+  color: white;
+  font-size: 22px;
+  width: 50%;
+}
+
+.row-margin {
+  margin-bottom: 10px;
+}
+
+.remitter {
+  font-size: 16px;
+  text-align: left;
+  margin: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+.search-text {
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+
+}
+
+.input-field {
+  width: 150px;
+}
+
+.scrollable-row-container {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+/* Model CSS */
+.custom-input {
+  height: 40px;
+  border-radius: 5px;
+  text-align: left;
+  color: black;
+  font-size: 18px;
+ 
+}
+
+.custom-input-mobile {
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 10px;
+}
+
+.label {
+  font-size: 20px;
+  text-align: left;
+  padding: 10px;
+}
+
+.label-mobile {
+  text-align: right;
+  padding: 10px;
+  font-size: 20px;
+
+}
+.sender-details{
+  color: #51CA6B;
+}
+.sender-details-1{
+  color: black;
+}
+.amount-input{
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+}
+.senderdetails{
+font-size: 10px;
+
+}
+.label-account{
+  text-align: start;
+}
+.form-control{
+
+  border-radius: 10px;
+  height: 50px;
+}
+.button-add{
+ 
+  background-color: #6163C8;
+  color: white;
+}
+
+/* Money Transfer 4 */
+
+.input-field-fundtransfer{
+ margin: 2%;
+ margin-top: 0%;
+}
+.label-fundtransfer{
+ 
+  font-size: 20px;
+  display: block; /* Ensure the label occupies its own line */
+  /* Adjust the width as needed */
+  /* text-align: right; Align the text to the right */
+  margin-top: 20px;
+  text-align: left;
+  margin-left: 2%;
+}
+.input-field-mode{
+  margin: 3%;
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  span {
+    font-size: 18px;
+  }
+}
+/* .btn:hover{
+
+background-color: #6163C8;
+color: white;
+} */
+
+/* Example of media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .btnn {
+    padding: 0 15px;
+    font-size: 14px;
+  }
+}

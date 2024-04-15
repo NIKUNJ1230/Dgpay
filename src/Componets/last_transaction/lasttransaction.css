@@ -1,0 +1,68 @@
+.title{
+    font-size: 20px;
+    margin-left: 5%;
+}
+.title-text-right{
+    font-size: 22px;
+    margin-right: 10%;
+}
+.input-filed{
+    border-radius: 5px;
+    width: 20%;
+   text-align: center;
+}
+.th-title{
+    font-size: 16px;
+    color: #000000;
+}
+.scanner-info{
+    font-size: 18px;
+}
+
+.btn-details {
+    background-color: #686BD3;
+    border-radius: 10px;
+    color: azure;
+    height: 10%;
+  }
+  .card-details{
+    color:white;
+   padding: 5px;
+   background-color: #686BD3;
+   border-radius: 10px;
+   font-size: 20px;
+   margin: 10px;
+  }
+  .card-title{
+   color:#000000;
+   padding: 5px;
+   font-size: 20px;
+   border-radius: 10px;
+   
+  }
+  .span-details{
+    font-size: 20px;
+    padding: 5px;
+   
+  }
+  .details-container {
+    /* display: flex;
+    flex-direction: column; */
+  }
+  .carousel-control-next-icon {
+
+    content: "";
+    --mdb-carousel-control-icon-font-size: 1.7rem;
+    --mdb-carousel-control-icon-font-weight: 700;
+    font-weight: var(--mdb-carousel-control-icon-font-weight);
+    font-size: var(--mdb-carousel-control-icon-font-size);
+    font-family: "Font Awesome 6 Pro", "Font Awesome 6 Free";
+  }
+  .carousel-control-prev-icon::after {
+    content: "";
+    --mdb-carousel-control-icon-font-size: 1.7rem;
+    --mdb-carousel-control-icon-font-weight: 700; 
+     font-weight: var(--mdb-carousel-control-icon-font-weight);
+    font-size: var(--mdb-carousel-control-icon-font-size);
+    font-family: "Font Awesome 6 Pro", "Font Awesome 6 Free";
+}

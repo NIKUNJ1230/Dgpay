@@ -1,0 +1,16 @@
+/* Adjust the size of the date picker icon */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    /* Adjust the size of the icon as per your requirement */
+    width: 20px;
+    height: 20px;
+    font-weight: bold;
+  }
+   /* Transction report  */
+   .text-des{
+    font-size: 18px;
+    
+   }
+   .text-title{
+    font-size: 20px;
+    font-weight: bold;
+   }
